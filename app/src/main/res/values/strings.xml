@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="title_news">News</string>
+    <string name="title_map">Map</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="error">Error ( %s ) Try Again.</string>
+    <string name="internetError">There is no internet connction.</string>
+    <string name="replay">try again</string>
+    <string name="exit">exit</string>
+    <string name="there_is_no_data">There is no data.</string>
+</resources>
