@@ -6,7 +6,7 @@ package com.majedalmoqbeli.newsapp.controller;
 public class SaveSetting {
 
     // this is for localhost
-    public static String ServerURL = "http://10.10.13.81:80/news/";
+    public static String ServerURL = "http://192.168.137.1:80/news/";
 
     //public static String ServerURL = "https://news.majedalmoqbeli/api/v1/";
 

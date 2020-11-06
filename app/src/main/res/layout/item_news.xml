@@ -8,16 +8,24 @@
     android:background="@drawable/linear_background"
     android:orientation="horizontal">
 
-    <ImageView
-        android:id="@+id/news_image"
-        android:layout_width="100dp"
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="110dp"
         android:layout_height="match_parent"
-        android:scaleType="fitXY"
-        android:src="@drawable/ic_launcher_background"
+        app:cardCornerRadius="15dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toStartOf="@+id/linearLayout"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/news_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_white"
+            android:src="@drawable/ic_launcher_background" />
+
+    </androidx.cardview.widget.CardView>
 
     <LinearLayout
         android:id="@+id/linearLayout"
