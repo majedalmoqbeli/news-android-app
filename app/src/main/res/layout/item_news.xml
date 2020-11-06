@@ -12,7 +12,6 @@
         android:id="@+id/news_image"
         android:layout_width="100dp"
         android:layout_height="match_parent"
-        android:paddingBottom="18dp"
         android:scaleType="fitXY"
         android:src="@drawable/ic_launcher_background"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
